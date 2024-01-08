@@ -1,0 +1,12 @@
+.googleButton {
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: center;
+}

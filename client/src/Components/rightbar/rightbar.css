@@ -1,0 +1,116 @@
+.rightbar{
+    flex: 4.5;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb{
+        width: 5px;
+        background-color: rgb(179, 179, 179);
+        
+    }   
+    .Online{
+        border-bottom: 1px solid black;
+        width: 150px;
+    } 
+.rightbarwrapper{
+    padding: 20px 20px 0 0;
+}
+.birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birthdayText{
+    font-weight: 300;
+font-size: 15px;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+.rightbarFriends{
+   list-style: 'none';
+}
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarProfileImgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightbarOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+.rightbarUsername{
+    font-weight: 500;
+}
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarInfo{
+    margin-bottom: 30px;
+}
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+.rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightbarInfoValue{
+    font-weight: 300;
+}
+.rightbarFollowings{
+    display: flex;
+flex-wrap: wrap;
+gap: 20px;
+    align-items: center;
+    
+}
+.rightbarFollowing{
+   
+display: flex;
+flex-direction: column;
+margin-bottom:20px ;
+cursor: pointer;
+}
