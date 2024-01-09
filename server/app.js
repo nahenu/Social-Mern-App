@@ -7,7 +7,7 @@ const app = express();
 dotenv.config();
 app.use(express.json());
 app.use(cors({
-  origin:["https://social-frontend-liart.vercel.app"],
+  origin:["https://social-mern-frontend.vercel.app"],
   methods:["POST","GET"],
   credentials:true
   
